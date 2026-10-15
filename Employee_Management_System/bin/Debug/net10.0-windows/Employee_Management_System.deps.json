@@ -1,0 +1,54 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Employee_Management_System/1.0.0": {
+        "dependencies": {
+          "System.Data.OleDb": "10.0.12"
+        },
+        "runtime": {
+          "Employee_Management_System.dll": {}
+        },
+        "resources": {
+          "aa/Employee_Management_System.resources.dll": {
+            "locale": "aa"
+          }
+        }
+      },
+      "System.Data.OleDb/10.0.12": {
+        "runtime": {
+          "lib/net10.0/System.Data.OleDb.dll": {
+            "assemblyVersion": "10.0.0.12",
+            "fileVersion": "10.0.1226.42308"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Data.OleDb.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.12",
+            "fileVersion": "10.0.1226.42308"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Employee_Management_System/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.OleDb/10.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IwdlDOFT+aVvq95Stb0+hX/L7id9eGOiYsfsbPQsComFWQQL9XoShkcx8qF/nhWL+/0sQgBfM0Yv9eB07/olYg==",
+      "path": "system.data.oledb/10.0.12",
+      "hashPath": "system.data.oledb.10.0.12.nupkg.sha512"
+    }
+  }
+}
